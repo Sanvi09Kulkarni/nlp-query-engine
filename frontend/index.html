@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>NLP Query Engine - Demo</title></head>
+<body>
+  <h3>Connect DB</h3>
+  <input id="conn" value="sqlite:///company.db" style="width:400px">
+  <button id="connectBtn">Connect</button>
+  <pre id="schema"></pre>
+
+  <h3>Upload Documents</h3>
+  <input type="file" id="docs" multiple>
+  <button id="uploadBtn">Upload</button>
+
+  <h3>Query</h3>
+  <input id="query" style="width:400px">
+  <button id="askBtn">Ask</button>
+  <pre id="results"></pre>
+
+  <script src="app.js"></script>
+</body>
+</html>
